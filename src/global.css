@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-3xl font-bold;
+  font-family: "Geo";
+}
+
+p {
+  @apply text-[#777];
+}
+
+article {
+  @apply m-5 rounded-lg bg-white p-5 shadow-lg;
+}
+
+article h2,
+article p {
+  @apply mb-5;
+}
